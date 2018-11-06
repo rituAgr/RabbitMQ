@@ -1,0 +1,14 @@
+server:
+  port: 8085
+
+spring:
+  rabbitmq:
+    host: crocodile-01.rmq.cloudamqp.com
+    username: yobiaokb
+    password: g6hyqUfWi1eSfu_O3b_YKh82VEM8JAMm
+    port: 5672
+    virtual-host: yobiaokb
+
+
+app:
+  queue-name: pair-practice-queue
